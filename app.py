@@ -1,29 +1,8 @@
 import flet as ft
-import json
-import os
 from solver_core import SolveraEngine
 
 # Initialisation du moteur d'IA
 engine = SolveraEngine()
-
-# Fichier pour stocker l'historique des conversations en local
-HISTORY_FILE = "solvera_history.json"
-
-def load_history():
-    if os.path.exists(HISTORY_FILE):
-        try:
-            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return []
-    return []
-
-def save_history(history):
-    try:
-        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump(history, f, ensure_ascii=False, indent=4)
-    except Exception as e:
-        print(f"Erreur de sauvegarde de l'historique : {e}")
 
 def app_main(page: ft.Page):
     page.title = "SOLVERA"
@@ -31,8 +10,8 @@ def app_main(page: ft.Page):
     page.padding = 0
     page.favicon = "icon.png"  # <--- Ajout de l'icône pour le web
 
-    # Chargement de l'historique existant
-    history_data = load_history()
+    # Historique propre à chaque utilisateur (totalement isolé et privé)
+    history_data = []
     
     chat_history = ft.ListView(expand=True, spacing=15, padding=20, auto_scroll=True)
 
@@ -55,11 +34,6 @@ def app_main(page: ft.Page):
             ],
             alignment=alignment
         )
-
-    # Restaurer les messages enregistrés dans l'interface
-    for item in history_data:
-        is_user = (item["role"] == "user")
-        chat_history.controls.append(create_message_bubble(item['text'], is_user=is_user))
 
     def send_message(e):
         user_text = prompt_input.value.strip()
@@ -90,7 +64,6 @@ def app_main(page: ft.Page):
         page.update()
 
         history_data.append({"role": "assistant", "text": response_text})
-        save_history(history_data)
 
     prompt_input = ft.TextField(
         hint_text="Décrivez votre problème...",
