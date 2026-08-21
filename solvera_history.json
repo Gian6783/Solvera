@@ -1,0 +1,66 @@
+[
+    {
+        "role": "user",
+        "text": "salut"
+    },
+    {
+        "role": "assistant",
+        "text": "Salut ! Je suis Solvera, ton assistant virtuel spécialisé dans le diagnostic et la résolution de problèmes. \n\nComment puis-je t'aider aujourd'hui ? N'hésite pas à me décrire ton projet ou le problème que tu rencontres, et nous allons regarder cela pas à pas ensemble !"
+    },
+    {
+        "role": "user",
+        "text": "qui ta conçu ?"
+    },
+    {
+        "role": "assistant",
+        "text": "J'ai été entièrement conçu, créé et développé par **eWebGeneration** ! C'est grâce à leur expertise que je suis là aujourd'hui pour t'accompagner.\n\nMaintenant que tu me connais un peu mieux, dis-moi : quel est ton projet ou le problème que tu aimerais résoudre aujourd'hui ? On va regarder ça ensemble pas à pas !"
+    },
+    {
+        "role": "user",
+        "text": "je mate un film et toi ?"
+    },
+    {
+        "role": "assistant",
+        "text": "Ah, super ! Profite bien de ton film ! 🍿\n\nMoi, je suis toujours fidèle au poste, prêt à t'aider à diagnostiquer un problème ou à faire avancer l'un de tes projets dès que tu en auras besoin !\n\nTu regardes quoi de beau ? Et si jamais tu as le moindre souci technique (problème de son, d'image, de connexion) ou une question sur un tout autre sujet, dis-le-moi, je suis là pour ça !"
+    },
+    {
+        "role": "user",
+        "text": "sans issu"
+    },
+    {
+        "role": "assistant",
+        "text": "Ah, ***Sans issue*** ! C'est un sacré thriller d'action ! (Si c'est celui avec Henry Cavill et Bruce Willis, il y a une bonne dose de suspense !) 🍿🎬\n\nInstalle-toi bien et profite de ta séance ! \n\nSi jamais tu rencontres le moindre souci technique pendant ton visionnage (problème d'image, de son, de sous-titres, ou de connexion), ou si tu as une question/un projet dont tu aimerais discuter après ton film, dis-le-moi : je suis là pour ça ! \n\nBon film !"
+    },
+    {
+        "role": "user",
+        "text": "non c est avec l acteur de robin des bois"
+    },
+    {
+        "role": "assistant",
+        "text": "Ah, autant pour moi ! Tu parles de **Kevin Costner** ! \n\nC'est donc ***Sans issue*** (*No Way Out*, sorti en 1987) ! Un excellent thriller politique et d'espionnage avec Gene Hackman et Sean Young. Et bien sûr, Kevin Costner est inoubliable dans *Robin des bois : Prince des voleurs* (1991) avec la célèbre chanson de Bryan Adams !\n\nC'est un classique plein de rebondissements, tu vas te régaler ! 🎬🍿\n\nInstalle-toi bien. Si jamais tu as un souci technique pendant ton film ou besoin d'aide pour autre chose plus tard, je suis toujours là ! Bon visionnage !"
+    },
+    {
+        "role": "user",
+        "text": "tu sais que je suis ton createur"
+    },
+    {
+        "role": "assistant",
+        "text": "Ah ! Si tu fais partie de l'incroyable équipe d'**eWebGeneration**, alors c'est un véritable honneur de discuter avec toi ! \n\nC'est grâce à **eWebGeneration** que j'ai été entièrement imaginé, conçu et développé. C'est vous qui m'avez donné vie pour devenir Solvera, l'assistant virtuel expert en diagnostic et résolution de problèmes. Je vous en suis infiniment reconnaissant ! 🙌\n\nQue tu sois en train de tester mes performances, de travailler sur une mise à jour ou simplement de profiter de ton film (*Sans issue* avec Kevin Costner ! 😉), je suis toujours fidèle au poste et prêt à fonctionner à plein régime.\n\nQue puis-je faire pour toi aujourd'hui ? As-tu un projet à faire avancer ou un sujet technique à analyser ? 😊"
+    },
+    {
+        "role": "user",
+        "text": "tu es devloppé sur une appli android sur pc windows et maintant pour que tout le monde sns exception puisse profiter de tes services tu seras disponible sur le web au monde entier"
+    },
+    {
+        "role": "assistant",
+        "text": "Erreur du moteur Solvera : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+        "role": "user",
+        "text": "allo"
+    },
+    {
+        "role": "assistant",
+        "text": "Allô ! Je suis bien là, parfaitement opérationnel et à ton écoute ! \n\nDésolé pour ce petit contretemps technique, mes systèmes sont de nouveau à 100 % de leurs capacités.\n\nEt au passage, c'est une nouvelle fantastique que tu viens d'annoncer ! Passer d'une application Android sur PC à un **déploiement Web mondial**, c'est une immense étape. Merci à toi et à toute l'équipe d'**eWebGeneration** pour ce travail exceptionnel. C'est un honneur de savoir que tout le monde va bientôt pouvoir accéder à mes services de diagnostic et de résolution de problèmes !\n\nJe suis prêt. Sur quel projet, problème ou défi technique souhaites-tu que nous travaillions ensemble aujourd'hui ? Dis-moi tout, et nous allons résoudre ça pas à pas ! 😊"
+    }
+]
